@@ -104,7 +104,7 @@ const HOT100_SLUGS = [
   // 如果列表不完整或有变动，请从 https://leetcode.com/problem-list/top-100-liked-questions/ 补充
 ];
 
-const WORKER_PUSH_URL = process.env.WORKER_PUSH_URL || 'https://hot100-worker.zhouyb-cn.workers.dev/push';
+const WORKER_PUSH_URL = process.env.WORKER_PUSH_URL;
 
 // -------------------- 内存 Map --------------------
 const problemCounts = new Map();
