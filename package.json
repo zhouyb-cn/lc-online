@@ -1,5 +1,17 @@
 {
+  "name": "leetcode-hot100-ws",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "ws": "^8.19.0"
+    "ws": "^8.18.0",
+    "express": "^4.21.0",     // 如果用了 express
+    "pg": "^8.13.0"           // 必须加 pg 库
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
