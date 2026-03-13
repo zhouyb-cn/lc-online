@@ -5,7 +5,7 @@
 // - 通过 WebSocket 推送最新数据给前端客户端
 // - 支持客户端请求某题历史数据
 
-import { WebSocketServer } from 'ws';
+import WebSocket, { WebSocketServer } from 'ws';
 import http from 'http';
 import express from 'express';
 import { Pool } from 'pg';
