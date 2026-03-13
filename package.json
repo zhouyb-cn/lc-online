@@ -7,9 +7,10 @@
     "start": "node leetcode-hot100-ws.js"
   },
   "dependencies": {
-    "ws": "^8.18.0",
     "express": "^4.21.0",
-    "pg": "^8.13.0"   
+    "node-fetch": "^3.3.2",
+    "pg": "^8.13.0",
+    "ws": "^8.19.0"
   },
   "engines": {
     "node": ">=18"
