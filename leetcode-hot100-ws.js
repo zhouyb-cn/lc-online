@@ -272,7 +272,7 @@ const leetCodeWss = new Map(); // slug → ws 实例
 function connectToLeetCode(slug) {
   if (leetCodeWss.has(slug)) return;
 
-  const url = `wss://collaboration-ws.leetcode.com/problems/${slug}`;
+  const url = `wss://collaboration-ws.leetcode.cn/problems/${slug}`;
   const ws = new WebSocket(url, {
     headers: {
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
